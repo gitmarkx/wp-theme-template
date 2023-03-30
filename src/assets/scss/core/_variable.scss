@@ -1,0 +1,26 @@
+/*
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ VARIABLES for media
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+$breakpoint-sp: 750px;
+$breakpoint-min-tab: 751px;
+$breakpoint-max-tab: 999px;
+$breakpoint-pc: 1000px;
+
+/*
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ VARIABLE FOR MIXINS _font-line.scss
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+$font-family-base: YakuHanJP, "Noto Serif JP", "Yu Mincho", YuMincho sans-serif;
+$font-family-main: "Montserrat", sans-serif;
+$font-family-en: "Roboto", sans-serif;
+$font-size-base: 16px;
+$font-weight-base: 500;
+$line-height-base: 1.5;
+
+
+// fonts
+$color-text-default: #000;
+$color-text01: #000;

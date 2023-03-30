@@ -1,0 +1,35 @@
+
+//PC
+@mixin is-pc {
+    @media only screen and (min-width: $breakpoint-pc) {
+        @content;
+    }
+}
+
+//tab
+@mixin is-tab {
+    @media only screen and (min-width: $breakpoint-min-tab) and (max-width: $breakpoint-max-tab) {
+        @content;
+    }
+}
+
+//SP
+@mixin is-sp {
+    @media only screen and (max-width: $breakpoint-sp) {
+        @content;
+    }
+}
+
+// @include is-max()
+@mixin is-max($is-max) {
+    @media only screen and (max-width: $is-max) {
+        @content;
+    }
+}
+
+// @include is-min()
+@mixin is-min($is-min) {
+    @media only screen and (min-width: $is-min) {
+        @content;
+    }
+}
