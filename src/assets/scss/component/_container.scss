@@ -1,0 +1,8 @@
+.c-container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+    @include is-max(1000px){
+        padding: 0 20px;
+    }
+}

@@ -1,0 +1,17 @@
+.c-tabNav{
+    display: flex;
+    gap: 1rem;
+    li{
+        flex: 1;
+    }
+}
+
+.c-tabContent{
+    width: 100%;
+    &--item{
+        display: none;
+        &.isActive{
+            display: block;
+        }
+    }
+}

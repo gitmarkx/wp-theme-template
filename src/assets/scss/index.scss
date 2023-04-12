@@ -1,3 +1,14 @@
-@import "core/**/*";
+// Import base styles
+@import 'core/reset';
+
+// Import utility styles
+@import "utils/**/*";
+
+// Import component styles
 @import "component/**/*";
+
+// Import layout styles
+@import "layout/**/*";
+
+// Import page-specific styles
 @import "page/**/*";
